@@ -2,14 +2,53 @@ body{
     background-color: white;
  }
 
- .img_intestazione{
-    background-image: url("img\pattern.png");
-    height: 100%;
-    background-repeat: repeat;
-    background-color: blue;
-  }
+ /*Intestazione*/
+        .img_intestazione{
+        background-image: url("img/pattern.png");
+        height: 100%;
+        background-repeat: repeat;
+        background-color: rgb(57, 188, 231);
+        }
 
-#logo { 
-    width: 700px;
-    margin-top: 150px;
- }
+        #logo { 
+        width: 700px;
+        margin-top: 150px;
+        }
+
+        .sottotitolo{ 
+        color: grey;
+        font-size: 16px;
+        }
+
+        .scritta_booleaners{ 
+        color: rgb(57, 188, 231);
+        }
+
+        .data_didascalia{ 
+        font-size: 12px;
+        }
+ /*Fine Intestazione*/
+
+ /*Didascalie Foto*/
+    .didascalia_1st_photo{ 
+        font-size: 12px;
+        }
+
+        .didascalia_2nd_photo{ 
+            font-size: 12px;
+            }
+/*Fine didascalie foto*/
+
+/*Tabella*/
+    .intestazione_tabella {
+        background-color: rgb(0, 140, 255);
+        color: white;
+      }
+
+      .prima_riga_tabella {
+        background-color: lightblue;
+      }
+      .terza_riga_tabella {
+        background-color: lightblue;
+      }
+/*Fine Tabella*/
